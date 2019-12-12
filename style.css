@@ -1,0 +1,28 @@
+nav {
+    display:flex;
+    justify-content: flex-end;
+
+}
+.item{
+    margin: 0 5px;
+}
+button{
+    display:none;
+}
+
+@media only screen and (max-width: 475px){
+    button{
+        display: block;
+    }
+    nav{
+        height: cal();
+        flex-direction: column;
+        justify-content:  center;
+        align-items:center;
+        display:none;
+        
+    }
+    .show-nav{
+        display:flex;
+    }
+}
